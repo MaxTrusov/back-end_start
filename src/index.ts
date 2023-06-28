@@ -4,7 +4,7 @@ const app = express()
 const port = 3000
 
 app.get('/', (req: Request, res: Response) => {
-   let helloMessage = 'Hello Maxim !!!'
+   let helloMessage = 'Hello Maxim. The back-end!!!'
    res.send(helloMessage)
 })
 
